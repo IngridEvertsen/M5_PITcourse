@@ -138,7 +138,7 @@ MonoBehaviour:
   m_symmetricProjection: 0
   m_optimizeMultiviewRenderRegions: 0
   m_multiviewRenderRegionsOptimizationMode: 0
-  m_hasMigratedMultiviewRenderRegionSetting: 0
+  m_hasMigratedMultiviewRenderRegionSetting: 1
   m_foveatedRenderingApi: 1
   m_useOpenXRPredictedTime: 1
 --- !u!114 &-6712050344373051248
@@ -286,7 +286,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feeef8d85de8db242bdda70cc7ff5acd, type: 3}
   m_Name: OculusTouchControllerProfile Android
   m_EditorClassIdentifier: Unity.XR.OpenXR::UnityEngine.XR.OpenXR.Features.Interactions.OculusTouchControllerProfile
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Oculus Touch Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.oculustouch
@@ -479,7 +479,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feeef8d85de8db242bdda70cc7ff5acd, type: 3}
   m_Name: OculusTouchControllerProfile Standalone
   m_EditorClassIdentifier: Unity.XR.OpenXR::UnityEngine.XR.OpenXR.Features.Interactions.OculusTouchControllerProfile
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Oculus Touch Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.oculustouch
@@ -850,7 +850,7 @@ MonoBehaviour:
   lateLatchingDebug: 0
   optimizeMultiviewRenderRegions: 0
   m_multiviewRenderRegionsOptimizationMode: 0
-  m_hasMigratedMultiviewRenderRegions: 0
+  m_hasMigratedMultiviewRenderRegions: 1
   spacewarpMotionVectorTextureFormat: 0
 --- !u!114 &4710123141755913945
 MonoBehaviour:
@@ -946,7 +946,7 @@ MonoBehaviour:
   m_symmetricProjection: 0
   m_optimizeMultiviewRenderRegions: 0
   m_multiviewRenderRegionsOptimizationMode: 0
-  m_hasMigratedMultiviewRenderRegionSetting: 0
+  m_hasMigratedMultiviewRenderRegionSetting: 1
   m_foveatedRenderingApi: 1
   m_useOpenXRPredictedTime: 1
 --- !u!114 &6042769601142440896
@@ -1098,7 +1098,7 @@ MonoBehaviour:
   m_symmetricProjection: 0
   m_optimizeMultiviewRenderRegions: 0
   m_multiviewRenderRegionsOptimizationMode: 0
-  m_hasMigratedMultiviewRenderRegionSetting: 0
+  m_hasMigratedMultiviewRenderRegionSetting: 1
   m_foveatedRenderingApi: 1
   m_useOpenXRPredictedTime: 1
 --- !u!114 &7643443841495431326
@@ -1191,7 +1191,7 @@ MonoBehaviour:
   m_symmetricProjection: 0
   m_optimizeMultiviewRenderRegions: 0
   m_multiviewRenderRegionsOptimizationMode: 0
-  m_hasMigratedMultiviewRenderRegionSetting: 0
+  m_hasMigratedMultiviewRenderRegionSetting: 1
   m_foveatedRenderingApi: 1
   m_useOpenXRPredictedTime: 1
 --- !u!114 &9167409933663552752
