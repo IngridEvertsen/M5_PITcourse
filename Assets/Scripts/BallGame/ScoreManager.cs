@@ -1,5 +1,6 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
 
 /// <summary>
 /// Keeps track of the score and plays feedback (text, sound, particles) when a goal is scored.
@@ -14,6 +15,10 @@ public class ScoreManager : MonoBehaviour
     [Header("Feedback")]
     public AudioSource scoreSound;  // sound played when scoring (optional)
     public ParticleSystem scoreEffect; // confetti/sparkles in the goal (optional)
+
+    [Header("Events")]
+    [Tooltip("Extra things that should happen on a score, e.g. Crowd.Cheer")]
+    public UnityEvent onScore;
 
     int score;
     int throws;
@@ -40,6 +45,7 @@ public class ScoreManager : MonoBehaviour
 
         if (scoreSound != null) scoreSound.Play();
         if (scoreEffect != null) scoreEffect.Play();
+        onScore?.Invoke();
     }
 
     public void ShowMessage(string text)
