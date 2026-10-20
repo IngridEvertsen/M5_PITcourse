@@ -11,6 +11,7 @@ public class ScoreManager : MonoBehaviour
     [Header("UI")]
     public TMP_Text scoreText;      // shows "Score: X"
     public TMP_Text messageText;    // short messages like "SCORE!" (optional)
+    public TMP_Text bannerScoreText; // big score number on the team banner (optional)
 
     [Header("Feedback")]
     public AudioSource scoreSound;  // sound played when scoring (optional)
@@ -65,5 +66,7 @@ public class ScoreManager : MonoBehaviour
     {
         if (scoreText != null)
             scoreText.text = $"Score: {score}\nThrows: {throws}";
+        if (bannerScoreText != null)
+            bannerScoreText.text = score.ToString();
     }
 }
